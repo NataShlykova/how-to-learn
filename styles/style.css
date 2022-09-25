@@ -95,21 +95,23 @@
   color: #2f80ed;
 }
 
-.main-text {
+.two-columns__main-text {
   min-width: 784px;
   width: 80%;
 }
 
-.span-accent {
+.two-columns__span-accent {
   font-weight: 600;
   font-size: 24px;
   line-height: 34px;
 }
 
-.paragraph {
+.two-columns__paragraph {
   font-size: 24px;
   line-height: 30px;
   font-weight: normal;
+  margin-top: 0; /**/
+  padding: 0; /**/
 }
 
 .digits {
@@ -292,6 +294,7 @@
   color: white;
   padding-top: 60px;
   padding-bottom: 40px;
+  box-sizing: border-box;
 }
 
 .logo_place_footer {
@@ -323,7 +326,7 @@
   display: flex;
   justify-content: space-between;
   flex-direction: column;
-  min-height: 350px;
+  min-height: 250px;
 }
 
 .footer__column-heading {
@@ -338,11 +341,13 @@
 }
 
 .footer__column-links {
- line-height: 30px;
+  display: flex;
+  flex-direction: column;
+  line-height: 30px;
 }
 
 .footer__column-link {
-  margin-bottom: 16px;
+  /*margin-bottom: 16px;*/
   line-height: 30px;
   font-size: 18px;
   font-weight: normal;
