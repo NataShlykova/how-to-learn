@@ -87,12 +87,14 @@
 }
 
 
-.brief {
+.two-columns__brief {
   width: 175px;
   font-size: 18px;
   line-height: 1.2;
   font-weight: normal;
   color: #2f80ed;
+  margin-top: 0px;
+  margin-bottom: 0px;
 }
 
 .two-columns__main-text {
@@ -112,6 +114,10 @@
   font-weight: normal;
   margin-top: 0; /**/
   padding: 0; /**/
+}
+
+.two-columns__paragraph:last-child {
+  margin-bottom: 0;
 }
 
 .digits {
@@ -166,6 +172,7 @@
   font-size: 24px;
   font-weight: 600;
   margin-top: 60px;
+  margin-bottom: 0;
 }
 
 .table__text {
