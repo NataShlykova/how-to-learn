@@ -1,6 +1,5 @@
-
-  .footer__column-links {
-    display: flex;
-    flex-direction: column;
-    line-height: 30px;
-  }
+.footer__column-links {
+  display: flex;
+  flex-direction: column;
+  line-height: 30px;
+}
