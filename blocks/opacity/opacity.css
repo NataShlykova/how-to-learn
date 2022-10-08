@@ -1,0 +1,17 @@
+@keyframes opacity {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: .5;
+  }
+  100% {
+    opacity: 1;
+  }
+   
+}
+
+.opacity:hover {
+  animation: opacity 4s ease-in;
+}
+
