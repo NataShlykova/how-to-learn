@@ -1,4 +1,4 @@
-@keyframes opacity {
+/*@keyframes opacity {
   0% {
     opacity: 0;
   }
@@ -13,5 +13,14 @@
 
 .opacity:hover {
   animation: opacity 4s ease-in;
+}*/
+
+.opacity {
+  opacity: 1;
+  transition: 0.7s ease;
 }
 
+.opacity:hover {
+  opacity: 0.5;
+  transition: 0.3s ease ;
+}
